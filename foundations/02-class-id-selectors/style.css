@@ -1,0 +1,20 @@
+* {
+    font-family: Verdana, Dejavu Sans, sans-serif;
+}
+.odd{
+    background-color: rgb(255, 182, 193);
+}
+.bigtext{
+    font-size: 24px;
+}
+/*
+  Since Number 3 and 4 requires the same font size of 24px,remember to give them the same class.In this case the value is "bigtext" so I won't need to call two different elements to specify the font size thus reducing the clutter of the code or duplicate code.
+*/
+#bluetext {
+    color: #0000ff;
+    font-size: 36px;
+}
+#boldtext {
+    background-color: #90ee90;
+    font-weight: bold;
+}
